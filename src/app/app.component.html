@@ -4,5 +4,10 @@
     <h1 class="display-4 text-center">{{title}}</h1>
     <h4 class="text-center">"whishlist basico con angular"</h4>
     </div>
-<app-lista-destinos></app-lista-destinos>
+  <h3>Router Simple</h3>
+  <div class="navLinks">
+    <a [routerLink]="['/home']">Home </a>
+    <a [routerLink]="['/destino']">Destino </a>
+  </div>
+<router-outlet></router-outlet>
 </div>
