@@ -20,6 +20,7 @@ export class DestinoViajeComponent implements OnInit {
 
   ir(){
     this.clicked.emit(this.destino);
+    console.log("EA");
     return false;
   }
 }
